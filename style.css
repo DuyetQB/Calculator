@@ -1,9 +1,13 @@
+
+
+
 form {
-    background: #ccc;
+    background: rgb(251, 251, 251);
     margin: 0 auto;
     width: 300px;
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 0 0 9px #333 ;
   }
   
   form * {
@@ -16,7 +20,7 @@ form {
   }
   
   form table tr, form table td {
-    border: 1px solid #eee;
+    border: 1px solid rgb(156, 154, 154);
   }
   
   form table tr:first-child input {
@@ -39,6 +43,7 @@ form {
     display: block;
     border: 0;
     font-size: 16px;
+    cursor: pointer;
   }
   
   form table input:focus {
@@ -55,7 +60,7 @@ form {
   form table input.operator {
     font-weight: 700;
     color: #fff;
-    background: #ffcc00;
+    background: #df05cc;
   }
         h3{
           color:green;}
