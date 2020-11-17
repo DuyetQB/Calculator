@@ -20,13 +20,14 @@ form {
   }
   
   form table tr, form table td {
-    border: 1px solid rgb(156, 154, 154);
+    border: 1px solid rgb(201, 202, 206);
   }
   
   form table tr:first-child input {
     height: 50px;
     padding: 0 10px;
     font-weight: 700;
+    border: 2px solid #000;
    
   }
   
@@ -44,6 +45,7 @@ form {
     border: 0;
     font-size: 16px;
     cursor: pointer;
+    font-weight: bolder;
   }
   
   form table input:focus {
@@ -60,7 +62,7 @@ form {
   form table input.operator {
     font-weight: 700;
     color: #fff;
-    background: #df05cc;
+    background:red;
   }
         h3{
           color:green;}
